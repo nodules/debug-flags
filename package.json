@@ -1,0 +1,28 @@
+{
+  "name": "debug-flags",
+  "version": "0.0.1",
+  "description": "Easy way to check NODE_DEBUG environment variable for nested tokens",
+  "main": "./index.js",
+  "scripts": {
+    "test": "jshint --config ./.jshintrc ./*.js ./test && jscs ./*.js ./test && mocha -s 10 -u exports -R spec ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nodules/debug-flags.git"
+  },
+  "keywords": [
+    "debug",
+    "environment"
+  ],
+  "author": "Phillip Kovalev <twilightfeel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodules/debug-flags/issues"
+  },
+  "homepage": "https://github.com/nodules/debug-flags",
+  "devDependencies": {
+    "mocha": "1.17.x",
+    "jscs": "1.2.x",
+    "jshint": "2.4.x"
+  }
+}
