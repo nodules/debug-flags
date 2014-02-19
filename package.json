@@ -19,6 +19,12 @@
   "bugs": {
     "url": "https://github.com/nodules/debug-flags/issues"
   },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/nodules/debug-flags/raw/master/LICENSE"
+    }
+  ],
   "homepage": "https://github.com/nodules/debug-flags",
   "devDependencies": {
     "mocha": "1.17.x",
